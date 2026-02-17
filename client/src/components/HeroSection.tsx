@@ -9,7 +9,7 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { handleSmoothClick } from "@/hooks/useSmoothScroll";
 import { ArrowDown } from "lucide-react";
 
-const HERO_IMAGE = "https://private-us-east-1.manuscdn.com/sessionFile/moF8zE2YrmVU4QvVTKERho/sandbox/nM5eDCQrGqZp8eqtV1o3BP-img-1_1770802586000_na1fn_aGVyby1wcm9kdWN0.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbW9GOHpFMllybVZVNFF2VlRLRVJoby9zYW5kYm94L25NNWVEQ1FyR3FacDhlcXRWMW8zQlAtaW1nLTFfMTc3MDgwMjU4NjAwMF9uYTFmbl9hR1Z5Ynkxd2NtOWtkV04wLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=lyZ1o3ThLR8WJnNnipznVTVaKNjhn9fCmjoKR4hgmKWJo~8JANT3jgC3R6Vk6q11Nso-gqfQaW3QK4BBMA~RzEbhphz6Hh6ZCUUVvtDEfLzlVzsM3XNl76heI1bQDPIFmSC8F5o5ePBC83Be5P6l8yfpTgOe6eA~B-cTIx6vz7GpVsgm14PzvqvQ4jNSZcwf3ren-yUqL90Y8iLmMtY9xgGqz6M~sd16oojhnXy5xOVQFqfslQBkdeI1wJH9sWwbQcq60tPPJXHgcm3ZYK-f5v6YDyu8ZMvzWz-cAiuvfC6v4PVvhFhLeNBWMGP726kvveLf8WU99lVWt3TtC1JFYA__";
+const HERO_IMAGE = "/images/hero-product.jpg";
 
 export default function HeroSection() {
   const sectionRef = useScrollReveal(0.1);

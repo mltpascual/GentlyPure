@@ -11,31 +11,31 @@ import { motion } from "framer-motion";
 
 const galleryItems = [
   {
-    src: "https://private-us-east-1.manuscdn.com/sessionFile/moF8zE2YrmVU4QvVTKERho/sandbox/tBQX8pFKJwU5XQJZNmPWpR-img-1_1770806818000_na1fn_aW5zdGEtMQ.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbW9GOHpFMllybVZVNFF2VlRLRVJoby9zYW5kYm94L3RCUVg4cEZLSndVNVhRSlpObVBXcFItaW1nLTFfMTc3MDgwNjgxODAwMF9uYTFmbl9hVzV6ZEdFdE1RLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=n6CqwzZYg3BfwVVLGGutwDbXIFz0JpqWHGf92XElrrNJC3aCXoM~u4wrZM8enaFRX1mg-WCvfuxQBGXhAcIi6kIuEvcHHMJpKOo22naIJvE1n4TYYUwfhmVCKtyu~VKtVnwBwLiMq8OvsShmbMznBuYtqrAUOAuGZhRytLHye2U4seP6MAUKmsOdWIRkf5IHGwJKxY~NWiMzJYp1-GmmaAH733NupEAT3NzdG~8aS32LrcnsHpQIftgSJta3XN9ynuTYVTjoLA3OLGoaq-LAW2U1uDtoEDW-lU7FDYmjOduI6ruKAzV47ChlpEPrCxYet6hQZ8oGFMlLeTEnQRvHgA__",
+    src: "/images/insta-1.jpg",
     handle: "@sarah.glows",
     caption: "Morning routine with Gently Pure",
     likes: 847,
   },
   {
-    src: "https://private-us-east-1.manuscdn.com/sessionFile/moF8zE2YrmVU4QvVTKERho/sandbox/tBQX8pFKJwU5XQJZNmPWpR-img-2_1770806821000_na1fn_aW5zdGEtMg.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbW9GOHpFMllybVZVNFF2VlRLRVJoby9zYW5kYm94L3RCUVg4cEZLSndVNVhRSlpObVBXcFItaW1nLTJfMTc3MDgwNjgyMTAwMF9uYTFmbl9hVzV6ZEdFdE1nLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=rydSXNpF59RnQZcUCvNjZCpdGVEocjCUFyvb6YApRF0Nswu~bpY80oaCn4A0VGTaoa37rTjzTGCecUh1nXNcGwvTf1BFIJ8kcJwwNTaeUUOHEOkly3wWOnSfOApFfubY6Dw3aFux6fClF8T0WM46rGKIZPBc1-A3-u2sXYmb3m2xtI-WPiMSYhv8vLOAaWNdtTmLgxFgCRNIw0sVnlz49iOkSLfIm6aeXoZa7Gdl28B3Z1DKf16XdFkFY-L2LKWNY~XkX1eQ5TePUcNRiAON6jelsuhPx9Ad6rGL7vgswngEUN8GAAxy8v-0Qrg2w7QA9fujEEGVTB7rnT~ENrOsXw__",
+    src: "/images/insta-2.jpg",
     handle: "@gentlypure",
     caption: "The essentials, laid bare",
     likes: 1243,
   },
   {
-    src: "https://private-us-east-1.manuscdn.com/sessionFile/moF8zE2YrmVU4QvVTKERho/sandbox/tBQX8pFKJwU5XQJZNmPWpR-img-3_1770806816000_na1fn_aW5zdGEtMw.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbW9GOHpFMllybVZVNFF2VlRLRVJoby9zYW5kYm94L3RCUVg4cEZLSndVNVhRSlpObVBXcFItaW1nLTNfMTc3MDgwNjgxNjAwMF9uYTFmbl9hVzV6ZEdFdE13LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Bb~2r8MEh6QQCcTVvc1KSUD9574-M4ofEEO5foYMM0n1Pdl2apNUceXXljb1ipMXm~qGcpc6afxqTeI1fMG6CbqlUD3Rpg7SlhCFWE3dnOAawN~uNa3tHsk9BAOIwWbe2FW5UXGMdyLjCvLaUGDRoSmzLWYTNvGULHwBY4FmQXLOWC~2AUjq6ce~psIG5UGPgogCB5rq911xVnR5M4Je-o2YDQZ7jBVMociRYjhSVfUVtOnhOg6t4SGMeCBdwBOJ4SAcIt7uk10TGva5sJV~v0JnreBB2iKLJg~ObfbLrWi2ey4qz7MaHAULUIuD102tFTNuqf5o6ExYhc9h~7Z0YA__",
+    src: "/images/insta-3.jpg",
     handle: "@emma.skincare",
     caption: "Self-care Sunday essentials",
     likes: 612,
   },
   {
-    src: "https://private-us-east-1.manuscdn.com/sessionFile/moF8zE2YrmVU4QvVTKERho/sandbox/tBQX8pFKJwU5XQJZNmPWpR-img-4_1770806826000_na1fn_aW5zdGEtNA.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbW9GOHpFMllybVZVNFF2VlRLRVJoby9zYW5kYm94L3RCUVg4cEZLSndVNVhRSlpObVBXcFItaW1nLTRfMTc3MDgwNjgyNjAwMF9uYTFmbl9hVzV6ZEdFdE5BLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=lrm8EqMYN1qx8ZAc8yWHxAtGyov8GbJdN2LZ44ZGJOHdUDU18S1hj3KKfNqGOwJvOF~pgSwR-X2rDp3RLRWIbzM0ndYnjk0IRhs4hUjNbCg1jq-QQghkIbRqXRH8WBIasgh~CZJsR~CguM0YMQ~sGCM~e7-8ALG6V1Z7yvm~QaYa04QmodBnzeBjwGNQxqPGQrKI~bkJpsNo3nrN2l0hz-My0QLKLeJd09m4sLKCh9BtoavUZk0pmQtrZ6SaGmKIOOgvK7y97ubeLa4lsYKCgdYfpJg3RDnJr3oEAevYLwNf3ZbaQ5hD6kTtbJ5zE25cvvk3Ey1QxEcaBAEUKiMgHA__",
+    src: "/images/insta-4.jpg",
     handle: "@gentlypure",
     caption: "Pure ingredients, pure results",
     likes: 956,
   },
   {
-    src: "https://private-us-east-1.manuscdn.com/sessionFile/moF8zE2YrmVU4QvVTKERho/sandbox/tBQX8pFKJwU5XQJZNmPWpR-img-5_1770806824000_na1fn_aW5zdGEtNQ.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbW9GOHpFMllybVZVNFF2VlRLRVJoby9zYW5kYm94L3RCUVg4cEZLSndVNVhRSlpObVBXcFItaW1nLTVfMTc3MDgwNjgyNDAwMF9uYTFmbl9hVzV6ZEdFdE5RLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=KkCRDN5JAhziQUU~BlcqcVjkBwTkoN9MJD6QvOQDB20uj0pDsYfYYyyRyLr5uVhyvP1ftX7RBX3pbG1Pnmn92j0Gos8ZIMkp9gQI1XGUL2hpe0BHBH9Nexn0q1zvmnlvcNm09nKVKHk0Q4GVWU-t1DBbgE05n-iQGDuTXDuywAddpVczH4RX7vjRgC6KR91V8XfR-3-W8kdVPjmC28FuuUhj9KT1rJgujLDcQJPqzFeYRjW7qBqPESZaRjBh~SMtQotER6HvgUYVWq0ncoJHYlX~gtfUwKW2MiMdS9dtUsJtkHz8H1Fy91DkoIbTWUJpU3MWVyrqDVVutvQK~ZPJ-w__",
+    src: "/images/insta-5.jpg",
     handle: "@priya.naturalskin",
     caption: "Garden vibes & gentle skincare",
     likes: 731,
